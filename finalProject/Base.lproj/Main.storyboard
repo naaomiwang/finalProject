@@ -22,12 +22,14 @@
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GjV-wz-CEi">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20220615_0034080.274586006307349" translatesAutoresizingMaskIntoConstraints="NO" id="4to-oi-VMT">
+                                                <rect key="frame" x="8" y="8" width="417" height="731"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20220615_0034080.274586006307349" translatesAutoresizingMaskIntoConstraints="NO" id="4to-oi-VMT">
-                                        <rect key="frame" x="-151" y="38" width="715" height="731"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLM-E1-OSW">
@@ -208,7 +210,7 @@
         <image name="20220615_0057270.005228420373308396" width="1080" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="n19-Uc-htM"/>
+        <segue reference="i5h-ua-UGn"/>
         <segue reference="Rs7-Li-2O2"/>
         <segue reference="qpE-Rm-xP6"/>
     </inferredMetricsTieBreakers>
