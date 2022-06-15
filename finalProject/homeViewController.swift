@@ -10,8 +10,12 @@ import UIKit
 
 class homeViewController: UIViewController {
 
+    @IBOutlet weak var ghana: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ghana.text = "This is Ghana!This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana!This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! "
 
         // Do any additional setup after loading the view.
     }
