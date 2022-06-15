@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		CDD031F028590970006A112D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD031EF28590970006A112D /* AppDelegate.swift */; };
 		CDD031F228590970006A112D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD031F128590970006A112D /* SceneDelegate.swift */; };
-		CDD031F428590970006A112D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD031F328590970006A112D /* ViewController.swift */; };
 		CDD031F728590970006A112D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD031F528590970006A112D /* Main.storyboard */; };
 		CDD031FA28590970006A112D /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDD031F828590970006A112D /* finalProject.xcdatamodeld */; };
 		CDD031FC28590971006A112D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD031FB28590971006A112D /* Assets.xcassets */; };
 		CDD031FF28590971006A112D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD031FD28590971006A112D /* LaunchScreen.storyboard */; };
 		CDD0320A28590971006A112D /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0320928590971006A112D /* finalProjectTests.swift */; };
 		CDD0321528590972006A112D /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0321428590972006A112D /* finalProjectUITests.swift */; };
+		CDD03229285969AE006A112D /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD03228285969AE006A112D /* homeViewController.swift */; };
+		CDD0322B285969DA006A112D /* uploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0322A285969DA006A112D /* uploadViewController.swift */; };
+		CDD0322D285969F0006A112D /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0322C285969F0006A112D /* exploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		CDD031EC28590970006A112D /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD031EF28590970006A112D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDD031F128590970006A112D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDD031F328590970006A112D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDD031F628590970006A112D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDD031F928590970006A112D /* finalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalProject.xcdatamodel; sourceTree = "<group>"; };
 		CDD031FB28590971006A112D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		CDD0321028590972006A112D /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD0321428590972006A112D /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		CDD0321628590972006A112D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD03228285969AE006A112D /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		CDD0322A285969DA006A112D /* uploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadViewController.swift; sourceTree = "<group>"; };
+		CDD0322C285969F0006A112D /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 			children = (
 				CDD031EF28590970006A112D /* AppDelegate.swift */,
 				CDD031F128590970006A112D /* SceneDelegate.swift */,
-				CDD031F328590970006A112D /* ViewController.swift */,
 				CDD031F528590970006A112D /* Main.storyboard */,
+				CDD0322C285969F0006A112D /* exploreViewController.swift */,
+				CDD0322A285969DA006A112D /* uploadViewController.swift */,
+				CDD03228285969AE006A112D /* homeViewController.swift */,
 				CDD031FB28590971006A112D /* Assets.xcassets */,
 				CDD031FD28590971006A112D /* LaunchScreen.storyboard */,
 				CDD0320028590971006A112D /* Info.plist */,
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD031F428590970006A112D /* ViewController.swift in Sources */,
 				CDD031F028590970006A112D /* AppDelegate.swift in Sources */,
 				CDD031FA28590970006A112D /* finalProject.xcdatamodeld in Sources */,
+				CDD0322B285969DA006A112D /* uploadViewController.swift in Sources */,
 				CDD031F228590970006A112D /* SceneDelegate.swift in Sources */,
+				CDD0322D285969F0006A112D /* exploreViewController.swift in Sources */,
+				CDD03229285969AE006A112D /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
