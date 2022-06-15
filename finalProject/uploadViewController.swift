@@ -12,12 +12,7 @@ class uploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     var imagePicker = UIImagePickerController ()
     
     @IBOutlet weak var shareLogo: UIImageView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        imagePicker.delegate = self
-
-        // Do any additional setup after loading the view.
-    }
+    
     
     @IBAction func selfiePressed(_ sender: Any) {
         imagePicker.sourceType = .camera
@@ -29,6 +24,20 @@ class uploadViewController: UIViewController, UIImagePickerControllerDelegate, U
         present(imagePicker, animated: true, completion: nil)
     }
     
+    func imagePickerController(_picker: UIImagePickerController, didFinishPickingMediaWithInfo info:
+                               [UIImagePickerController.InfoKey : Any]){
+        
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            shareLogo.image = selectedImage
+            imagePicker.dismiss(animated: true, completion: nil)
+        }
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        imagePicker.delegate = self
+
+        // Do any additional setup after loading the view.
+    }
     /*
     // MARK: - Navigation
 
