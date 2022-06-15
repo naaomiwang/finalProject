@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20220615_0057270.005228420373308396" translatesAutoresizingMaskIntoConstraints="NO" id="ibv-oe-oOC">
-                                <rect key="frame" x="-70" y="236" width="554" height="491"/>
+                                <rect key="frame" x="-70" y="323" width="554" height="404"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -197,7 +197,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="n19-Uc-htM"/>
+        <segue reference="i5h-ua-UGn"/>
         <segue reference="Rs7-Li-2O2"/>
         <segue reference="qpE-Rm-xP6"/>
     </inferredMetricsTieBreakers>

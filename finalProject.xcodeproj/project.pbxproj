@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192C4725285A3C3A00461C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192C4724285A3C3A00461C82 /* Assets.xcassets */; };
 		CDD031F028590970006A112D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD031EF28590970006A112D /* AppDelegate.swift */; };
 		CDD031F228590970006A112D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD031F128590970006A112D /* SceneDelegate.swift */; };
 		CDD031F728590970006A112D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD031F528590970006A112D /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192C4724285A3C3A00461C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD031EC28590970006A112D /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD031EF28590970006A112D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDD031F128590970006A112D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				CDD0322A285969DA006A112D /* uploadViewController.swift */,
 				CDD03228285969AE006A112D /* homeViewController.swift */,
 				CDD031FB28590971006A112D /* 20220615_0034080.274586006307349.png */,
+				192C4724285A3C3A00461C82 /* Assets.xcassets */,
 				CDD031FD28590971006A112D /* LaunchScreen.storyboard */,
 				CDD0320028590971006A112D /* Info.plist */,
 				CDD031F828590970006A112D /* finalProject.xcdatamodeld */,
@@ -243,6 +246,7 @@
 			files = (
 				CDD031FF28590971006A112D /* LaunchScreen.storyboard in Resources */,
 				CDD031FC28590971006A112D /* 20220615_0034080.274586006307349.png in Resources */,
+				192C4725285A3C3A00461C82 /* Assets.xcassets in Resources */,
 				CDD031F728590970006A112D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
