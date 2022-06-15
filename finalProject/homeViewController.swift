@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import WebKit
 
 class homeViewController: UIViewController {
 
     @IBOutlet weak var ghana: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,9 +20,14 @@ class homeViewController: UIViewController {
         ghana.text = "This is Ghana!This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana!This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! This is Ghana! "
 
         // Do any additional setup after loading the view.
+       
     }
     
-
+    @IBAction func ghanaVideoTapped(_ sender: Any) {
+        let ghanaVideoURL = URL(string: "https://youtu.be/z9zuWgLA3QU")
+        UIApplication.shared.open(ghanaVideoURL!)
+    }
+    
     /*
     // MARK: - Navigation
 
