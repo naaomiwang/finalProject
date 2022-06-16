@@ -10,8 +10,9 @@ import UIKit
 
 class exploreViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+@IBOutlet weak var label: UILabel!
+    
+   
 
         // Do any additional setup after loading the view.
     }
@@ -27,4 +28,6 @@ class exploreViewController: UIViewController {
     }
     */
 
+    
+    
 }
