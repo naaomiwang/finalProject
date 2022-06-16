@@ -24,18 +24,16 @@ class homeViewController: UIViewController {
         
         ghana.text = "Ghana's new development is on the rise! Click this link to learn more about the affordable housing project. "
         
-        let ghanaURL = URL(string: "https://www.youtube.com/watch?v=jiuEHckpiKI")
-            ghanaWebView.load(URLRequest(url:ghanaURL!))
+        
         
         china.text = "China's new initiative called 'Clear every plate' is set to be implemented next year."
 
         // Do any additional setup after loading the view.
        
     }
-    
     @IBAction func ghanaVideoTapped(_ sender: Any) {
-        let ghanaVideoURL = URL(string: "https://youtu.be/z9zuWgLA3QU")
-        UIApplication.shared.open(ghanaVideoURL!)
+        let ghanaURL = URL(string: "https://www.youtube.com/watch?v=jiuEHckpiKI")
+        UIApplication.shared.open(ghanaURL!)
     }
     
     /*
