@@ -12,7 +12,6 @@
 		CDD031F228590970006A112D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD031F128590970006A112D /* SceneDelegate.swift */; };
 		CDD031F728590970006A112D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD031F528590970006A112D /* Main.storyboard */; };
 		CDD031FA28590970006A112D /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDD031F828590970006A112D /* finalProject.xcdatamodeld */; };
-		CDD031FC28590971006A112D /* 20220615_0034080.274586006307349.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD031FB28590971006A112D /* 20220615_0034080.274586006307349.png */; };
 		CDD031FF28590971006A112D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD031FD28590971006A112D /* LaunchScreen.storyboard */; };
 		CDD0320A28590971006A112D /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0320928590971006A112D /* finalProjectTests.swift */; };
 		CDD0321528590972006A112D /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD0321428590972006A112D /* finalProjectUITests.swift */; };
@@ -45,7 +44,6 @@
 		CDD031F128590970006A112D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CDD031F628590970006A112D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDD031F928590970006A112D /* finalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalProject.xcdatamodel; sourceTree = "<group>"; };
-		CDD031FB28590971006A112D /* 20220615_0034080.274586006307349.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 20220615_0034080.274586006307349.png; path = ../../../../Downloads/20220615_0034080.274586006307349.png; sourceTree = "<group>"; };
 		CDD031FE28590971006A112D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDD0320028590971006A112D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD0320528590971006A112D /* finalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +111,6 @@
 				CDD0322C285969F0006A112D /* exploreViewController.swift */,
 				CDD0322A285969DA006A112D /* uploadViewController.swift */,
 				CDD03228285969AE006A112D /* homeViewController.swift */,
-				CDD031FB28590971006A112D /* 20220615_0034080.274586006307349.png */,
 				192C4724285A3C3A00461C82 /* Assets.xcassets */,
 				CDD031FD28590971006A112D /* LaunchScreen.storyboard */,
 				CDD0320028590971006A112D /* Info.plist */,
@@ -245,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD031FF28590971006A112D /* LaunchScreen.storyboard in Resources */,
-				CDD031FC28590971006A112D /* 20220615_0034080.274586006307349.png in Resources */,
 				192C4725285A3C3A00461C82 /* Assets.xcassets in Resources */,
 				CDD031F728590970006A112D /* Main.storyboard in Resources */,
 			);

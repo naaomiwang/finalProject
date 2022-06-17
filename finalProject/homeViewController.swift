@@ -11,22 +11,25 @@ import WebKit
 
 class homeViewController: UIViewController {
 
-    
     @IBOutlet weak var ghana: UILabel!
-        
+    
     @IBOutlet weak var china: UILabel!
     
     @IBOutlet weak var singapore: UILabel!
     
+    @IBOutlet weak var malaysia: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ghana.text = "Ghana: Ghana's new development is on the rise! Click this link to learn more about the affordable housing project. "
-        
+        ghana.text = "Ghana: What is Kente Cloth? Watch this video about the textile that originated in western Africa. "
     
-        china.text = "Read Vogue: The rise and rise of young Chinese designers: Two Chinese designers are semi-finalists for this year’s LVMH Prize. Could this year see a Chinese winner?"
+        china.text = "China: The rise and rise of young Chinese designers: Two Chinese designers are semi-finalists for this year’s LVMH Prize. Could this year see a Chinese winner?"
         
-        singapore.text = "Singapore: The president of Singapore has approved a new infrastructure plan."
+        singapore.text = "Singapore: How can Singapore bridge the gap between climate change awareness and sustainable actions?"
+        
+        malaysia.text = "Malaysia: Resisting uncertainty, Malaysia is finding itself: Covid-19 has turbocharged Malaysia’s already fractious politics – and that’s flowing into the country’s economy."
+
 
         // Do any additional setup after loading the view.
        
@@ -42,6 +45,15 @@ class homeViewController: UIViewController {
         UIApplication.shared.open(articleURL!)
     }
     
+    @IBAction func malaysiaTapped(_ sender: Any) {
+        let malaysiaURL = URL(string: "https://www.lowyinstitute.org/the-interpreter/resisting-uncertainty-malaysia-finding-itself")
+        
+        UIApplication.shared.open(malaysiaURL!)
+    }
+    @IBAction func scrollToTop(_ sender: UIButton) {
+    }
+    
+
     /*
     // MARK: - Navigation
 

@@ -13,6 +13,11 @@ class uploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     @IBOutlet weak var shareLogo: UIImageView!
     
+    @IBOutlet weak var captionTextView: UITextView!
+    
+    @IBOutlet weak var locationField: UITextField!
+    
+    @IBOutlet weak var urlField: UITextField!
     
     @IBAction func selfiePressed(_ sender: Any) {
         imagePicker.sourceType = .camera
@@ -35,6 +40,9 @@ class uploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+        
+        self.captionTextView.layer.borderColor = UIColor.lightGray.cgColor
+        self.captionTextView.layer.borderWidth = 1
 
         // Do any additional setup after loading the view.
     }
@@ -47,5 +55,13 @@ class uploadViewController: UIViewController, UIImagePickerControllerDelegate, U
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func postTapped(_ sender: UIButton) {
+        locationField.text = ""
+        urlField.text = " "
+        captionTextView.text = " "
+       
+    }
+    
 
 }
