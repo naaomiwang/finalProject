@@ -35,7 +35,7 @@ class homeViewController: UIViewController {
        
     }
     @IBAction func ghanaVideoTapped(_ sender: Any) {
-        let ghanaURL = URL(string: "https://www.youtube.com/watch?v=jiuEHckpiKI")
+        let ghanaURL = URL(string: "https://www.youtube.com/watch?v=8rJk0PdSGuY")
         UIApplication.shared.open(ghanaURL!)
     }
     

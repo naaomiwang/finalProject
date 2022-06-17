@@ -71,7 +71,7 @@
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_1486027394 RF-1" translatesAutoresizingMaskIntoConstraints="NO" id="QOd-GD-4f4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="213.00000000000045"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="213"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="213" id="9cl-Se-aid"/>
                                                         </constraints>
