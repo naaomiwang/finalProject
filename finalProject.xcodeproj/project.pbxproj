@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		192C4724285A3C3A00461C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDD031EC28590970006A112D /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD031EC28590970006A112D /* Traveller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traveller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD031EF28590970006A112D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDD031F128590970006A112D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CDD031F628590970006A112D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		CDD031ED28590970006A112D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDD031EC28590970006A112D /* finalProject.app */,
+				CDD031EC28590970006A112D /* Traveller.app */,
 				CDD0320528590971006A112D /* finalProjectTests.xctest */,
 				CDD0321028590972006A112D /* finalProjectUITests.xctest */,
 			);
@@ -154,7 +154,7 @@
 			);
 			name = finalProject;
 			productName = finalProject;
-			productReference = CDD031EC28590970006A112D /* finalProject.app */;
+			productReference = CDD031EC28590970006A112D /* Traveller.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CDD0320428590971006A112D /* finalProjectTests */ = {
@@ -453,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Anna.finalProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Traveller;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Anna.finalProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Traveller;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
